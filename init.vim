@@ -1,8 +1,11 @@
 "------------------------------------------
 " TODO:
 "------------------------------------------
-" - NerdTree is taking over my tabnew and all the other dir views: I don't like
-"   that
+" maybe try vinegar
+" configure fzf and telescope to play nicely together (or just use one of them
+" idk how that works anymore, but basically telescope only does things within
+" the current dir and fzf doesn't give a preview. Some kind of best-of-both
+" would be great)
 
 
 "------------------------------------------
@@ -185,4 +188,4 @@ source ~\AppData\Local\nvim\.plug_configs\diffexpr.vim
 "------------------------------------------
 
 " I don't wanna start just anywhere:
-:cd c:\Users\16138\Documents
+:cd ~\Documents
